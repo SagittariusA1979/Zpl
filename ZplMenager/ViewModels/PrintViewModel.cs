@@ -9,6 +9,7 @@ public partial class Print: ObservableObject
 {
     [ObservableProperty]
     private string message = "Welcome to MVVM without Code-Behind!";
+    
     public Print(){}
 
     [RelayCommand]
