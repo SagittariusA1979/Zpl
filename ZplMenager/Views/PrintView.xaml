@@ -1,0 +1,38 @@
+﻿
+<UserControl x:Class="ZplManager.Views.PrintView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:ZplManager.Views"
+             mc:Ignorable="d"
+             Background="Black"
+             d:DesignHeight="600" d:DesignWidth="1000">
+
+    <!-- <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+        <TextBlock Text="Layout of Label" FontSize="24" HorizontalAlignment="Left"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Image Source="pack://application:,,,/Resources/layout.png" Width="200" Height="200" />
+        </StackPanel>
+    </StackPanel> -->
+
+
+ <Grid>
+     <TextBox HorizontalAlignment="Left" Margin="40,152,0,0" TextWrapping="Wrap" Text="Property" VerticalAlignment="Top" Width="935" Height="336"  Background="#FF100101" Foreground="#FFF3E5E5"/>
+     <ComboBox HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top" Width="237" Height="26" Foreground="#FFF3EDED">
+         <ComboBox.Background>
+             <LinearGradientBrush EndPoint="0,1">
+                 <GradientStop Color="#FFF0F0F0"/>
+                 <GradientStop Color="#FF0E0101" Offset="1"/>
+             </LinearGradientBrush>
+         </ComboBox.Background>
+     </ComboBox>
+     <Button Content="Print" HorizontalAlignment="Left" Margin="508,290,0,0" VerticalAlignment="Top" Width="412" Height="60"/>
+     <TextBox HorizontalAlignment="Left" Margin="399,197,0,0" TextWrapping="Wrap" Text="#" VerticalAlignment="Top" Width="120" Background="#FF120101" Foreground="#FFFBF5F5"/>
+     <Label Content="Quantity" HorizontalAlignment="Left" Margin="332,194,0,0" VerticalAlignment="Top" Foreground="#FFE8DADA" Height="25" Width="62"/>
+     <Image HorizontalAlignment="Left" Height="134" Margin="87,275,0,0" VerticalAlignment="Top" Width="306"/>
+
+
+ </Grid> 
+
+</UserControl>
