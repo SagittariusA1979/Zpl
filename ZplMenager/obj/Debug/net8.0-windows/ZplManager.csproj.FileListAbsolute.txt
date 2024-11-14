@@ -28,3 +28,15 @@ C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDS
 C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDSM_wpf\ZplMenager\obj\Debug\net8.0-windows\Views\SettingView.g.cs
 C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDSM_wpf\ZplMenager\obj\Debug\net8.0-windows\Views\PrintView.baml
 C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDSM_wpf\ZplMenager\obj\Debug\net8.0-windows\Views\SettingView.baml
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\Views\MatrixCodeView.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\Views\PrintView.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\Views\SettingView.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\Views\StartView.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\App.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\ZplManager_MarkupCompile.cache
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\ZplManager_MarkupCompile.lref
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\ZplManager.dll
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\refint\ZplManager.dll
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\ZplManager.pdb

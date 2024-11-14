@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:local="clr-namespace:ZplManager.Views"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2023/toolkit"
+             xmlns:local="clr-namespace:ZplManager.ViewModels"
              mc:Ignorable="d"
              Background="WhiteSmoke"
              d:DesignHeight="600" d:DesignWidth="1000">
@@ -15,9 +16,11 @@
         </StackPanel>
     </StackPanel> -->
 
+    <UserControl.Resources>
+        <local:MatrixCode x:Key="MatrixCodeViewModel" />
+    </UserControl.Resources>
 
-
-     <Grid ShowGridLines="False">
+     <Grid ShowGridLines="False" DataContext="{StaticResource MatrixCodeViewModel}">
      <Grid.ColumnDefinitions>
          <ColumnDefinition Width="27*"></ColumnDefinition>
          <ColumnDefinition Width="49*"></ColumnDefinition>
@@ -33,7 +36,6 @@
      </Grid>
 
      <Grid Grid.Column="0" Background="Black" RenderTransformOrigin="0.5,0.5" Margin="0,0,96,14" Grid.Row="1">
-
      </Grid>
 
      <Grid Grid.Row="1" Background="Black" Margin="10,0,0,10">
@@ -79,6 +81,7 @@
          <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="320,310,0,0" TextWrapping="Wrap" Text="#" VerticalAlignment="Top" Width="119" Height="18" Background="#FF130202" Foreground="#FFFBF2F2"/>
          <TextBlock HorizontalAlignment="Left" Margin="173,289,0,0" TextWrapping="Wrap" Text="No [8K0 941]" VerticalAlignment="Top" Grid.Column="1" Foreground="#FFDFF3E8" Height="16" Width="69"/>
          <TextBox HorizontalAlignment="Center" Margin="0,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1" Height="18" Background="#FF080101" Foreground="#FFF7E8E8" Text="#"/>
+        
          <Button Content="Clear" Command="{Binding ICButton_clear}" Width="100" FontFamily="Impact" Height="47" Grid.Column="1" Margin="304,461,66,80">
              <Button.Template>
                  <ControlTemplate TargetType="{x:Type Button}">
@@ -89,6 +92,7 @@
                  </ControlTemplate>
              </Button.Template>
          </Button>
+    
          <Button Content="Write" Command="{Binding ICButton_write}" Width="100" FontFamily="Impact" Height="47" Grid.Column="1" Margin="175,461,194,80">
              <Button.Template>
                  <ControlTemplate TargetType="{x:Type Button}">
@@ -108,3 +112,7 @@
  </Grid>
 
 </UserControl>
+
+
+
+

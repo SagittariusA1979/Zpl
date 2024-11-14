@@ -4,6 +4,7 @@ using System.Reflection.Emit;
 using System.Text;
 using Zebra.Sdk.Comm;
 using Zebra.Sdk.Printer;
+using System.ComponentModel;
 
 
 namespace ZplManager.Models;

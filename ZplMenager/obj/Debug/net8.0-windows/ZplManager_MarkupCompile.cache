@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDSM_wpf\ZplMenager\obj\Debug\net8.0-windows\
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\obj\Debug\net8.0-windows\
 ZplManager
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\marelli\Desktop\DeskTop\vs\Designe\C#\MyProjectXMLDSMgit\MyProjectXMLDSM_wpf\ZplMenager\App.xaml
+D:\ProjectOfTraceability\Zpl_prin\Zpl\ZplMenager\App.xaml
 5-859517774
 
-14-1099199302
-198-688555687
+14522391439
+1981451641563
 Views\MainWindow.xaml;Views\MatrixCodeView.xaml;Views\PrintView.xaml;Views\SettingView.xaml;Views\StartView.xaml;
 
-False
+True
 

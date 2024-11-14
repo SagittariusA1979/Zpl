@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.ComponentModel;
+//using CommunityToolkit.Mvvm.Input;
 using System.Windows.Input;
 using ZplManager.Views;
 using ZplManager.SupportMethods;
@@ -18,11 +19,14 @@ public class MatrixCode : INotifyPropertyChanged
 
         ICButton_clear = new RelayCommand(clear);
         ICButton_write = new RelayCommand(write);
+
     }
 
     #region COMMANDs
+    // This commands are binding into XAML code
     public ICommand ICButton_clear {get; private set;}
     public ICommand ICButton_write {get; private set;}
+    public ICommand  SaveCommand {get; private set;}
 
     // Methode for Commands
     public void clear(object parm)
@@ -33,7 +37,14 @@ public class MatrixCode : INotifyPropertyChanged
     {
         MessageBox.Show("Write");
     }
+
+    //  This command is binding into XAML but but not directly
+    public void save()
+    {
+        MessageBox.Show("Save...");
+    }
     #endregion
+
 
     #region  INPCh
     public event PropertyChangedEventHandler PropertyChanged;

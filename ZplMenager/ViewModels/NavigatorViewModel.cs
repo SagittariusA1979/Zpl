@@ -76,7 +76,7 @@ public class NavigatorViewModel: INotifyPropertyChanged
     }
     public void item04(object parm) // Quit from App
     {
-        SelectViewModel = new object();
+        //SelectViewModel = new object();
         MessageBox.Show("EXIT");
     }
 
